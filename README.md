@@ -9,5 +9,5 @@ The SPI pins are constrained to the inner/outer io pins of the board, additional
 Once you've run .tcl script in Vivado, generate bitstream and export .xsa file to build the platform in Vitis.
 
 The main.c contains a user interface (via SSH) to write commands to the ADGS1409 (SW_DATA register).
-The user will be able to select both master and channel for the ADGS1409 four at a time. 
+The user will be able to select which SPI interface on the CoraZ7 and the channel they wish to switch to in the ADGS1409. 
 
