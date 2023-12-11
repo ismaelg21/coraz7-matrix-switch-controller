@@ -4,7 +4,7 @@ Run the .tcl file in Vivado to access the project files of the matrix switch con
 
 The block design contains the ZYNQ7 Processing System and 16 AXI Quad SPI IP blocks. 
 The SPI pins are constrained to the inner/outer io pins of the board, additional header pins, and Pmod headers.
-
+  - Cora-Z7-07S-Master.xdc file to view constraints
 
 Once you've run .tcl script in Vivado, generate bitstream and export .xsa file to build the platform in Vitis.
 
